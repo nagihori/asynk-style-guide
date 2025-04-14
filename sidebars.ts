@@ -9,10 +9,8 @@
 
 // @ts-check
 
-import type { SidebarsConfig } from '@docusaurus/plugin-content-docs';
-
-/** @type {SidebarsConfig} */
-const sidebars: SidebarsConfig = {
+/** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
+const sidebars = {
   guideSidebar: [
     {
       type: 'category',
