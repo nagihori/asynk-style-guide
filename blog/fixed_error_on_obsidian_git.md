@@ -1,3 +1,6 @@
+---
+title: Obsidian+Gitプラグインでの403エラーの解決
+---
 ググったら簡単に解決できたよ。
 
 [**Git Plugin Obsidian Android**](https://www.reddit.com/r/ObsidianMD/comments/zj5629/git_plugin_obsidian_android/?rdt=64840)
