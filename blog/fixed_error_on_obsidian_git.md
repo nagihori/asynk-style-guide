@@ -3,7 +3,7 @@ title: Obsidian+Gitプラグインでの403エラーの解決
 ---
 ググったら簡単に解決できたよ。
 
-[**Git Plugin Obsidian Android**](https://www.reddit.com/r/ObsidianMD/comments/zj5629/git_plugin_obsidian_android/?rdt=64840)
+[**Git Plugin Obsidian Android** - reddit](https://www.reddit.com/r/ObsidianMD/comments/zj5629/git_plugin_obsidian_android/?rdt=64840)
 > Turns out the problem was with my personal token as I was generating a "Fine grain token" which is a beta feature.
 > 
 > After I generated a "Token(classic)" everything worked as expected.
