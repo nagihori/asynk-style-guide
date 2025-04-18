@@ -1,0 +1,43 @@
+.features {
+  padding: 3rem 1rem;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.feature {
+  flex: 1 1 45%;
+  max-width: 480px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.feature h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  text-align: left;
+  padding: 0 1rem;
+}
+
+.feature p,
+.feature ul {
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: left;
+  margin: 0 auto;
+}
+.eyeCatch {
+  text-align: center;
+}
+.featureSvg {
+  height: 200px;
+  width: 200px;
+  margin: 0 auto 1rem;
+}
