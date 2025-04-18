@@ -11,7 +11,7 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'デザインは、見た目ではなく構造です',
+    title: 'デザインは 見た目ではなく構造',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
@@ -27,7 +27,7 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: '最終的な目的は「よりよく伝えること」です',
+    title: '最終目的は「よりよく伝えること」',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
@@ -42,7 +42,7 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: '美しさや技術もまた手段です',
+    title: '美しさや技術もまた手段',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
@@ -64,7 +64,7 @@ const FeatureList: FeatureItem[] = [
 
 function Feature({title, Svg, description}: FeatureItem) {
   return (
-    <div className="feature col col--4">
+    <div className={clsx('col col--4', styles.feature)}>
       <div className={styles.eyeCatch}>
         <Svg className={styles.featureSvg} role="img" />
       </div>
