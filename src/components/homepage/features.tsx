@@ -67,8 +67,6 @@ function Feature({title, Svg, description}: FeatureItem) {
     <div className={clsx('col col--4', styles.feature)}>
       <div className={styles.eyeCatch}>
         <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div>
         <Heading as="h3">{title}</Heading>
         {description}
       </div>
